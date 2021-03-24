@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo '\033[1;33m'
+echo " [+] Installation is on Progress...."
+sudo pip install -r requirements.txt
+pip install -r requirements.txt
+echo '\033[1;34m'
+echo " [*]Installation Succesfully 
+echo " [+]Starting Script"
+python3 File1.py
